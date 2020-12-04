@@ -9,14 +9,16 @@ Given a integer array with length n. Sort the array in ascending order and print
 Two lines:  
 The first line is the integer n;  
 The second line includes n integers in the range of [1,1e9].  
-e.g.```
+e.g.
+```
 5
 2 5 1 3 4
 ```
 **Output:**
 One Line:  
 The sorted integers in the array.  
-e.g.```
+e.g.
+```
 1 2 3 4 5
 ```
 ### Analysis
