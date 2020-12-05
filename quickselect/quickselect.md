@@ -26,8 +26,5 @@ e.g.
 
 This question is similar to the [quick sort question](https://github.com/David-Ze-Liang/algorithm_questions/tree/main/quick%20sort). The difference is that quickselect only executes recursively in the half which contains the k-th smallest element.
 
-Time complexity:
-$$
-n + \frac{n}{2}
-$$
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{n}{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{n}{2}" title="\frac{n}{2}" /></a>
 
