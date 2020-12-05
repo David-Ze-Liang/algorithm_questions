@@ -3,7 +3,7 @@
 
 ### Question description:
 
-Given a integer array with length n and an integer k. Return the k-th smallest number in the array(1<=n<=100000).
+Given a integer array with length n and an integer k. Return the k-th smallest number in the array *using quickselect algorithm*(1<=n<=100000).
 
 see:<https://www.acwing.com/problem/content/788/>  
 **Input:**
