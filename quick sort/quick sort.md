@@ -36,7 +36,7 @@ After the adjustment, all elements on the left-hand side of pivot is less than o
 l&ensp;&ensp;&ensp;&ensp;pivot&ensp;&ensp;&ensp;&ensp;r  
 \=\=\=\=\=\=\=\=\=\=  
 i&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;j  
-We use two pointer: `i` and `j` to scan the array from two ends. We swap the array[i] and array[j] if array[i]>=pivot *and* array[j]<=pivot, otherwise `i++` and `j--` until `i` and `j` meet or cross each other. After this, elements from l to j is less than or equal to the pivot and all elements from j+1 to r is larger than or equal to pivot.
+We use two pointer: `i` and `j` to scan the array from two ends. We swap the array[i] and array[j] if array[i]>=pivot **and** array[j]<=pivot, otherwise `i++` and `j--` until `i` and `j` meet or cross each other. After this, elements from l to j is less than or equal to the pivot and all elements from j+1 to r is larger than or equal to pivot.
 
 ### 3. Recursion
 Sort the laft part and the right part of the array recursively.
