@@ -3,7 +3,7 @@
 
 ### Question description:
 
-Given a integer array with length n and an integer k. Return the k-th smallest number in the array **using quickselect algorithm**(1<=n<=100000).
+Given a integer array with length n and an integer k. Return the k-th smallest number in the array(1<=n<=100000).
 
 see:<https://www.acwing.com/problem/content/788/>  
 **Input:**
@@ -24,5 +24,12 @@ e.g.
 ```
 ### Analysis
 
-This question is similar to the [quick sort question](https://github.com/David-Ze-Liang/algorithm_questions/tree/main/quick%20sort). The difference is that quickselect only executes recursively in the half which contains the k-th smallest element, and the time complexity is *O(n)* (other than the *O(nlogn)* of quick sort).
+This question is similar to the [quick sort question](https://github.com/David-Ze-Liang/algorithm_questions/tree/main/quick%20sort). The difference is that quickselect only executes recursively in the half which contains the k-th smallest element.
 
+> Time complexity:
+> $$
+> n + \frac{n}{2}
+> 
+> 
+> 
+> $$
