@@ -27,3 +27,11 @@ The quick sort algorithm use **divide-and-conquer** paradigm.
 
 ### 1. Select a pivot
 There are multiple methods to select the pivot in the array.
+
+```sequence
+对象A->对象B: 对象B你好吗?（请求）
+Note right of 对象B: 对象B的描述
+Note left of 对象A: 对象A的描述(提示)
+对象B-->对象A: 我很好(响应)
+对象A->对象B: 你真的好吗？
+```
