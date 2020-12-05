@@ -33,8 +33,8 @@ There are multiple methods to select the pivot in the array. 1) use the most lef
 ### 2. Split the range based on the pivot (⛤)
 After the adjustment, all elements on the left-hand side of pivot is less than or equal to the pivot, and all elements on the right-hand side of pivot is larger than or equal to the pivot.
 
-l&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;r  
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=  
+l&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;r  
+\=\=\=\=\=\=\=\=\=\=  
 i            j
 
 ### 3. Recursion
