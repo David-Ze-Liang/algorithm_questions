@@ -5,7 +5,7 @@
 
 Given a integer array with length n. Sort the array in ascending order and print the result. (1<=n<=100000)
 
-see:<https://www.acwing.com/problem/content/787/>
+see:<https://www.acwing.com/problem/content/787/>  
 **Input:**
 Two lines:  
 The first line is the integer n;  
@@ -32,8 +32,13 @@ There are multiple methods to select the pivot in the array. 1) use the most lef
 4) randomly pick an element.
 ### 2. Split the range based on the pivot (⛤)
 After the adjustment, all elements on the left-hand side of pivot is less than or equal to the pivot, and all elements on the right-hand side of pivot is larger than or equal to the pivot.
+
+l&nbsp； &nbsp； &nbsp； &nbsp； r  
+\=\=\=\=\=\=\=\=\=\=\=\=\=\=  
+i            j
+
 ### 3. Recursion
 Sort the laft part and the right part of the array recursively.
 
-> Note: We use `scanf` to read inpt data. It is usually much faster than `cin`.
+> Note: We use `scanf` to read inpt data. It is usually much faster than `cin`. (see [scanf](https://www.runoob.com/cprogramming/c-function-scanf.html))
 
