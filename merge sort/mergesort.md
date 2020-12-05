@@ -3,7 +3,7 @@
 
 ### Question description:
 
-Given a integer array with length n. Sort the array using merge sort algorithm.
+Given a integer array of length n. Sort the array using merge sort algorithm.
 
 see:<https://www.acwing.com/problem/content/789/>  
 **Input:**
