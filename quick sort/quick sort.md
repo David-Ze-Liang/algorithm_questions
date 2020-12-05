@@ -5,6 +5,7 @@
 
 Given a integer array with length n. Sort the array in ascending order and print the result. (1<=n<=100000)
 
+see:<https://www.acwing.com/problem/content/787/>
 **Input:**
 Two lines:  
 The first line is the integer n;  
@@ -26,12 +27,13 @@ e.g.
 The quick sort algorithm use **divide-and-conquer** paradigm.
 
 ### 1. Select a pivot
-There are multiple methods to select the pivot in the array.
+There are multiple methods to select the pivot in the array. 1) use the most left element; 2) use the middle element;
+3) use the most right element;
+4) randomly pick an element.
+### 2. Split the range based on the pivot (⛤)
+After the adjustment, all elements on the left-hand side of pivot is less than or equal to the pivot, and all elements on the right-hand side of pivot is larger than or equal to the pivot.
+### 3. Recursion
+Sort the laft part and the right part of the array recursively.
 
-```sequence
-对象A->对象B: 对象B你好吗?（请求）
-Note right of 对象B: 对象B的描述
-Note left of 对象A: 对象A的描述(提示)
-对象B-->对象A: 我很好(响应)
-对象A->对象B: 你真的好吗？
-```
+> Note: We use `scanf` to read inpt data. It is usually much faster than `cin`.
+
