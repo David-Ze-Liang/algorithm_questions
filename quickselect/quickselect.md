@@ -26,10 +26,8 @@ e.g.
 
 This question is similar to the [quick sort question](https://github.com/David-Ze-Liang/algorithm_questions/tree/main/quick%20sort). The difference is that quickselect only executes recursively in the half which contains the k-th smallest element.
 
-> Time complexity:
+Time complexity:
 $$
 n + \frac{n}{2}
 $$
-> 
-> 
-> 
+
