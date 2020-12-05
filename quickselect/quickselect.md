@@ -6,6 +6,7 @@
 Given a integer array with length n and an integer k. Return the k-th smallest number in the array(1<=n<=100000).
 
 see:<https://www.acwing.com/problem/content/788/>  
+
 **Input:**
 Two lines:  
 The first line is the integers n and k;  
@@ -17,7 +18,7 @@ e.g.
 ```
 **Output:**
 One Line:  
-The k-th smallest number in the array.
+The k-th smallest number in the array.  
 e.g.
 ```
 3
