@@ -8,7 +8,7 @@ Given a integer array with length n. Sort the array using merge sort algorithm.
 see:<https://www.acwing.com/problem/content/789/>  
 **Input:**
 Two lines:  
-The first line is the integer n;  
+The first line is the integer n（1<=n<=100000）;  
 The second line includes n integers in the range of [1,1e9].  
 e.g.
 ```
