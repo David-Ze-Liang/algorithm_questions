@@ -31,4 +31,4 @@ First we divide the array into two parts from the middle, then we divide inversi
 #### Merge  
 When we merge the two sorted parts, we use two pointers: `i` for the first part and `j` for the second part. When `a[i]`>`a[j]`, it means all elements in the first part after `a[i]`(included) can form an inversion pair with `a[j]`.
 
-> Note: There are at most 10^6^ elements in the array. At the worst case, i.e. all elements are in descending order, the number of inversion pairs is (n-1)+(n-2)+...+1 = n(n-1)/2 ≈ 5* 10^11^ > INT_MAX(2147483647 = 2^31^ -1). Thus, we use *long long* to store the number of inversion pairs.
+> Note: There are at most 10^6 elements in the array. At the worst case, i.e. all elements are in descending order, the number of inversion pairs is (n-1)+(n-2)+...+1 = n(n-1)/2 ≈ 5* 10^11 > INT_MAX(2147483647 = 2^31 -1). Thus, we use *long long* to store the number of inversion pairs.
