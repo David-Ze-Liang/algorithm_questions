@@ -20,4 +20,6 @@ e.g.
 10.000000
 ```
 ### Analysis
-Binary search on real value usually does not have boundary problems, so we can simply use the middle value to divide the interval.
+Binary search on real value usually does not have boundary problems, so we can simply use the middle value to divide the interval.  
+
+> Note: We cannot initial the boundaries to *0* and *n*. If n<1, e.g. 0.001, the cube root of n is 0.1. However, the search range is [0,0.001] and 0.001 is not in the search range, so it will give a wrong result.
