@@ -1,10 +1,6 @@
 def cube_root(num):
-    if num>=0:
-        l=0
-        r = num
-    else:
-        l = num
-        r = 0
+    l=-10000
+    r=10000
     while r-l>5e-7:
         mid = (l+r)/2
         if mid*mid*mid>=num:
