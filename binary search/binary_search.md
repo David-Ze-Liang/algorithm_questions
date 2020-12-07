@@ -50,6 +50,7 @@ int bsearch_1(int l, int r)
 }
 ```
 #### 2. Divide the range into [l,mid-1] and [mid,l]
+```
 int bsearch_2(int l, int r)
 {
     while (l < r)
@@ -60,3 +61,5 @@ int bsearch_2(int l, int r)
     }
     return l;
 }  
+```
+> Note: Solution in C++ uses binary search and linear search; Solution in Python uses two binary search.
