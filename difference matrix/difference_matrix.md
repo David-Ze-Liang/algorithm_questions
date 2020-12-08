@@ -39,10 +39,10 @@ e.g.
 
 ### Analysis  
 Similar to 1D difference calculation, the difference matrix is the inverse operation of the prefix sum. For a matrix A[n][m], the matrix B[n][m] is the difference matrix of A[n][m], if A[n][m] is the prefix sum of B[n][m].  
-To add c on a submatrix(x1,y1,x2,y2), we can follow these steps:  
+To add c on a submatrix(x1,y1,x2,y2) of A[n][m], we can follow these steps:  
 1) add c on b[x1][y1], which means adding c on elements in submatrix(x1,y1,n,m).  
 2) minus c on b[x2+1][y1], which means elements in submatrix(x2+1,y1,n,m) minus c.  
 3) minus c on b[x1][y2+1], which means elements in submatrix(x1,y2+1,n,m) minus c.  
 4) add c on b[x2+1][y2+1], which means adding c on elements in submatrix(x2+1,y2+1,n,m).  
 
-Actually we do not need to construct B[n][m]. We can consider A[n][m] is a zero matrix from beginning, then the corresponding B[n][m] is a zero matrix. Then for each a[i][j], we can treat it like adding a[i][j] to the submatrix(i,j,i,j), and we can just follow steps above to form the B[n][m].
+Actually we do not need to construct B[n][m]. We can consider A[n][m] is a zero matrix from beginning, then the corresponding B[n][m] is a zero matrix. Then for each a[i][j], we can treat it like adding a[i][j] to the submatrix(i,j,i,j) of A[n][m], and we can just follow steps above to form the B[n][m].
