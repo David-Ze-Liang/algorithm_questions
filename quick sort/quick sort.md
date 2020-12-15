@@ -9,7 +9,7 @@ see:<https://www.acwing.com/problem/content/787/>
 **Input:**
 Two lines:  
 The first line is the integer n;  
-The second line includes n integers in the range of [1,10X<sup>9</sup>].  
+The second line includes n integers in the range of [1,10<sup>9</sup>].  
 e.g.
 ```
 5
